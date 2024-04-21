@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">SecondBasicTestApplication</string>
+    <string name="new_app_name">Pakistan Team</string>
+    <string name="enter_your_number">Enter your number</string>
+    <string name="enter_your_password">Enter your password</string>
+    <string name="log_in">Log In</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="register_yourself">Register yourself</string>
 </resources>
