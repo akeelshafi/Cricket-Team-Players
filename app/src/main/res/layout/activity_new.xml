@@ -15,6 +15,7 @@
         android:src="@drawable/pcb_logo" />
 
     <EditText
+        android:id="@+id/phoneNumber"
         android:layout_width="300dp"
         android:layout_height="60dp"
         android:layout_gravity="center_horizontal"
@@ -23,6 +24,7 @@
         android:inputType="phone" />
 
     <EditText
+        android:id="@+id/password"
         android:layout_width="300dp"
         android:layout_height="60dp"
         android:layout_gravity="center_horizontal"
@@ -30,6 +32,7 @@
         android:hint="@string/enter_your_password"
         android:inputType="textPassword"/>
     <Button
+        android:id="@+id/LoginBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/log_in"
@@ -38,20 +41,13 @@
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="50dp"/>
     <TextView
+        android:id="@+id/forgotPassword"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/forgot_password"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="10dp"
         android:textStyle="bold"/>
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/register_yourself"
-        android:textStyle="bold"
-        android:layout_gravity="center"
-        android:layout_marginTop="150dp"/>
 
 
 </LinearLayout>
