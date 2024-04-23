@@ -6,4 +6,5 @@
     <string name="log_in">Log In</string>
     <string name="forgot_password">Forgot password?</string>
     <string name="register_yourself">Register yourself</string>
+    <string name="Preference_file_name">Pakistan Preferences</string>
 </resources>
